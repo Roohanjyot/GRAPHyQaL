@@ -1,0 +1,33 @@
+{
+  "name": "graphyqal",
+  "version": "1.0.0",
+  "description": "A project to show case the security aspect of my capabilities using OAuth and GraphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roohanjyot/GRAPHyQaL.git"
+  },
+  "keywords": [
+    "OAuth",
+    "GraphQL",
+    "Hashing"
+  ],
+  "author": "Roohanjyot Singh Sidhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roohanjyot/GRAPHyQaL/issues"
+  },
+  "homepage": "https://github.com/Roohanjyot/GRAPHyQaL#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
